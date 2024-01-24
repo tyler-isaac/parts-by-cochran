@@ -1,0 +1,184 @@
+.carousel-caption1 h1 {
+  font-size: 7vw;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.carousel-caption1 p {
+  font-size: 4.5vw;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.carousel-caption2 h1 {
+  font-size: 7vw;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.carousel-caption3 h1 {
+  font-size: 7vw;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.carousel-caption2 p {
+  font-size: 4.5vw;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.carousel-caption1 img {
+  width: 60%;
+  padding: 0 0 10px 0;
+}
+
+.carousel-caption h1 {
+  font-size: 7vw;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.carousel-caption1 {
+  top: 6vw;
+  padding-top: 6vw;
+  position: absolute;
+  right: 15%;
+  bottom: 1.25rem;
+  left: 15%;
+  padding-bottom: 1.25rem;
+  color: #fff;
+  text-align: center;
+}
+
+.carousel-caption2 {
+  top: 6vw;
+  padding-top: 6vw;
+  position: absolute;
+  right: 15%;
+  bottom: 1.25rem;
+  left: 15%;
+  padding-bottom: 1.25rem;
+  color: #fff;
+  text-align: center;
+}
+
+.carousel-caption3 {
+  top: 14vw;
+  padding-top: 6vw;
+  position: absolute;
+  right: 15%;
+  bottom: 1.25rem;
+  left: 15%;
+  padding-bottom: 1.25rem;
+  color: #fff;
+  text-align: center;
+}
+
+.carousel-caption {
+  top: 17vw;
+  padding-top: 6vw;
+}
+
+@media only screen and (min-width: 768px) {
+  .carousel-caption1 {
+    top: 7vw;
+    padding-top: 1vw;
+  }
+
+  .carousel-caption2 {
+    top: 15vw;
+    padding-top: 1vw;
+  }
+
+  .carousel-caption3 {
+    top: 17vw;
+    padding-top: 1vw;
+  }
+
+  .carousel-caption {
+    top: 14vw;
+    padding-top: 6vw;
+  }
+
+  .carousel-caption1 img {
+    width: 50%;
+    padding: 0 0 35px 0;
+  }
+
+  .carousel-caption1 h1 {
+    font-size: 4vw;
+  }
+
+  .carousel-caption h1 {
+    font-size: 4vw;
+  }
+
+  .carousel-caption2 h1 {
+    font-size: 4vw;
+  }
+
+  .carousel-caption3 h1 {
+    font-size: 4vw;
+  }
+
+  .carousel-caption1 p {
+    font-size: 2.5vw;
+  }
+
+  .carousel-caption2 p {
+    font-size: 2.5vw;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .carousel-caption1 img {
+    width: 40%;
+    padding: 0 0 45px 0;
+  }
+
+  .carousel-caption1 {
+    top: 9vw;
+    padding-top: 1vw;
+  }
+
+  .carousel-caption2 {
+    top: 17vw;
+    padding-top: 1vw;
+  }
+
+  .carousel-caption3 {
+    top: 19vw;
+    padding-top: 1vw;
+  }
+
+  .carousel-caption h1 {
+    font-size: 3.42vw;
+  }
+
+  .carousel-caption1 h1 {
+    font-size: 3.42vw;
+  }
+
+  .carousel-caption2 h1 {
+    font-size: 3.42vw;
+  }
+
+  .carousel-caption3 h1 {
+    font-size: 3.42vw;
+  }
+
+  .carousel-caption1 p {
+    font-size: 2.15vw;
+  }
+
+  .carousel-caption2 p {
+    font-size: 2.15vw;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+}
+
+@media only screen and (min-width: 1400px) {
+}

@@ -1,0 +1,135 @@
+.footer-container {
+  background: #000;
+}
+
+.footer-flex {
+  max-width: 320px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  text-transform: uppercase;
+  font-size: 18px;
+  padding: 2rem 0;
+  margin: 0 auto;
+}
+
+.footer-flex div {
+  flex-basis: 40%;
+  flex-shrink: 1;
+  display: flex;
+  padding: 5px;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 170px;
+}
+
+.footer-flex div:nth-child(1) {
+  border: 3px solid #333333;
+  border-style: none none solid none;
+}
+
+.footer-flex div:nth-child(2) {
+  border: 3px solid #333333;
+  border-style: none none solid none;
+}
+
+.footer-flex a {
+  padding: 5px 0;
+  color: #fff;
+  display: inline;
+  transition-duration: 0.4s;
+  text-decoration: underline;
+}
+
+.footer-flex a:hover,
+.footer-flex a:focus {
+  text-decoration-color: #e82430;
+}
+
+.footer-flex a:active {
+  color: #fff;
+}
+
+.footer-flex a:visited {
+  color: #fff;
+}
+
+.footer-hr {
+  border: 2px solid #333333;
+  background-color: #333333;
+  width: 94%;
+  display: block;
+  opacity: 1;
+  margin: 2rem auto;
+}
+
+.footer-container p {
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  padding: 0 0 2rem 0;
+  margin: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .footer-flex {
+    max-width: 650px;
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .footer-flex div {
+    flex-basis: 20%;
+    padding: 0px;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: unset;
+  }
+
+  .footer-flex {
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    font-size: 16px;
+    max-width: 950px;
+  }
+
+  .footer-flex a {
+    padding: 5px 0;
+  }
+
+  .footer-flex div:nth-child(1) {
+    border: 3px solid #333333;
+    border-style: none solid none none;
+  }
+  .footer-flex div:nth-child(2) {
+    border: 3px solid #333333;
+    border-style: none solid none none;
+  }
+  .footer-flex div:nth-child(3) {
+    border: 3px solid #333333;
+    border-style: none solid none none;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .footer-flex {
+    max-width: 1100px;
+  }
+
+  .footer-flex a {
+    padding: 3px 0;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .footer-flex {
+    max-width: 1300px;
+  }
+
+  .footer-hr {
+    width: 1300px;
+  }
+}

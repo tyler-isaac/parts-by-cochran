@@ -1,0 +1,208 @@
+h2 {
+  display: block;
+  text-align: center;
+  font-size: 31px;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin: 0 auto 40px;
+}
+
+.body-container {
+  display: block;
+  /* max-width: 290px; */
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
+body p {
+  font-size: 16px;
+}
+
+.row1 img {
+  display: block;
+  width: 290px;
+  margin: 0 auto;
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.45);
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.45);
+}
+
+hr {
+  border: 1px solid #707070;
+  background-color: #707070;
+  width: 98%;
+  display: block;
+  margin: 40px auto;
+}
+
+.font-red {
+  color: #e82430;
+}
+
+.row3 {
+  background: url("https://di-uploads-pod6.dealerinspire.com/1cochran/uploads/2023/12/parts-about-us-bottom-background_edited.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding: 50px 0;
+}
+
+.row3 div:first-child {
+  display: block;
+  margin: auto;
+}
+
+.row3 h2 {
+  text-align: center;
+}
+
+.row3 li {
+  list-style: none;
+  padding: 5px 40px;
+  background-image: url("https://di-uploads-pod6.dealerinspire.com/1cochran/uploads/2023/12/parts-white-bullet-point.png");
+  background-repeat: no-repeat;
+  background-position: left top 0px;
+  background-size: 30px;
+}
+
+.row3 li h3 {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+.row3 ul {
+  display: block;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+@media only screen and (min-width: 650px) {
+  .body-container {
+    display: block;
+    max-width: 600px;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .row1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 50px 0 0 0;
+    justify-content: space-between;
+  }
+
+  .row1 div:first-child {
+    flex-basis: 50%;
+  }
+
+  .row1 div:last-child {
+    flex-basis: 50%;
+  }
+
+  .row1 img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.45);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.45);
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.45);
+  }
+
+  .row3 div {
+    max-width: 600px;
+  }
+
+  .row3 div:last-child {
+    display: flex;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .row3 ul {
+    display: block;
+    margin: 0 auto;
+    padding: 0 0rem;
+    flex: 1;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .body-container {
+    max-width: 800px;
+  }
+
+  .row3 div {
+    max-width: 800px;
+  }
+
+  .row1 img {
+    position: relative;
+    top: -105px;
+    width: 95%;
+    margin: 0 0 0 auto;
+  }
+
+  .row1 div:first-child {
+    flex-basis: 40%;
+  }
+
+  .row1 div:last-child {
+    flex-basis: 60%;
+  }
+
+  .row2 {
+    padding: 0 0 2rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .body-container {
+    max-width: 1000px;
+  }
+
+  .row3 div {
+    max-width: 1000px;
+  }
+
+  .row1 {
+    align-items: flex-start;
+    padding: 50px 0 0 0;
+  }
+
+  .row1 img {
+    width: 90%;
+  }
+
+  .row1 div:last-child {
+    flex-basis: 55%;
+  }
+
+  .row1 div:first-child {
+    flex-basis: 45%;
+  }
+
+  hr {
+    margin: -40px auto 40px;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .body-container {
+    max-width: 1100px;
+  }
+
+  .row3 div {
+    max-width: 1100px;
+  }
+
+  body p {
+    font-size: 20px;
+  }
+
+  .row1 div:last-child {
+    flex-basis: 55%;
+  }
+}

@@ -1,0 +1,40 @@
+.myAlert {
+    padding: 20px 0 25px;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    position: static;
+    border-radius: 0;
+  }
+  
+  .closebtn {
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+    letter-spacing: 0;
+    position: relative;
+    right: 10px;
+    top: -5px;
+    color: white;
+    text-align: end;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  
+  .closebtn:hover {
+    color: #ea0029;
+  }
+
+  .alert-header {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+  }
+
+  .alert-p {
+    font-size: 18px;
+    text-align: center;
+
+  }

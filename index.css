@@ -1,0 +1,358 @@
+.body-container {
+  max-width: 290px;
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.row1 {
+  padding: 40px 0 0;
+  margin: 0;
+}
+
+h2 {
+  text-align: center;
+  font-size: 28px;
+  margin: 0 0 20px 0;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+p {
+  padding: 16px 0;
+  line-height: 1.1;
+  margin: 0;
+  padding: 0;
+}
+
+.row2 {
+  padding: 30px 0;
+}
+
+.row2 li {
+  list-style: none;
+  padding: 5px 40px;
+  margin: 25px 0;
+  background-image: url("https://di-uploads-pod6.dealerinspire.com/1cochran/uploads/2023/11/parts-bullet-point.png");
+  background-repeat: no-repeat;
+  background-position: left top 0px;
+  background-size: 30px;
+}
+
+.row2 li h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.row2 ul {
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+hr {
+  border: 2px solid #c1c0c1;
+  background-color: #c1c0c1;
+}
+
+iframe {
+  display: block;
+  overflow: hidden;
+  height: 770px !important;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.divider,
+.form-header-group {
+  border-color: #fff !important;
+}
+
+.row3 {
+  padding: 50px 0;
+}
+
+.row4 {
+  background-color: #f2f2f2;
+}
+
+.row4-container {
+  padding: 50px 0;
+  max-width: 290px;
+  display: block;
+  margin: 0 auto;
+}
+
+.contact-box-flex i {
+  background-color: #e82430;
+  color: #fff;
+  border-radius: 50%;
+  margin: 0 0 0 12px;
+  font-size: 24px;
+}
+
+i.circle1 {
+  padding: 10px;
+}
+
+i.circle2 {
+  padding: 10px 13px;
+}
+
+i.circle3 {
+  padding: 10px;
+}
+
+i.circle4 {
+  padding: 10px 12px;
+}
+
+.contact-container {
+  padding: 0px 8px 20px;
+}
+
+.contact-box {
+  -webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.65);
+  -moz-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.65);
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.65);
+  margin: 10px 0;
+}
+
+.contact-box-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  padding: 10px 0;
+  background-color: #fff;
+}
+
+.contact-box-flex div:last-child {
+  margin: 0 0 0 12px;
+}
+
+h4 {
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+h5 {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  padding: 30px 1rem;
+}
+
+.row4 p {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  color: #808080;
+}
+
+.row5 {
+  background-color: #e82430;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.logo-container img {
+  width: 45%;
+  display: block;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 480px) {
+  .body-container {
+    max-width: 400px;
+  }
+
+  .row4-container {
+    max-width: 400px;
+  }
+
+  .row2 {
+    padding: 30px 0 30px 30px;
+  }
+
+  iframe {
+    height: 680px !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .body-container {
+    max-width: 670px;
+  }
+
+  .row4-container {
+    max-width: 670px;
+  }
+
+  iframe {
+    height: 610px !important;
+  }
+
+  .row2 {
+    padding: 30px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+  .row2 li {
+    padding: 5px 0 5px 40px;
+  }
+
+  .row2 ul {
+    flex-basis: 48%;
+  }
+
+  .logo-container img {
+    width: 21%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .body-container {
+    max-width: 850px;
+  }
+
+  .row4-container {
+    max-width: 850px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .row4-container div:first-child {
+    flex-basis: 60%;
+  }
+
+  .row4-container div:last-child {
+    flex-basis: 40%;
+  }
+
+  .item-order {
+    order: 1;
+  }
+
+  iframe {
+    height: 562px !important;
+  }
+
+  .contact-box-flex div:first-child {
+    flex-basis: 20%;
+  }
+
+  .contact-box-flex div:last-child {
+    flex-basis: 80%;
+  }
+
+  .contact-box-flex {
+    padding: 15px 0;
+  }
+
+  .contact-box {
+    margin: 15px 0;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .body-container {
+    max-width: 1000px;
+  }
+
+  .row4-container {
+    max-width: 1000px;
+  }
+
+  .logo-container img {
+    width: 8%;
+    margin: 0 10px;
+  }
+
+  .row4-container div:last-child {
+    flex-basis: 29%;
+  }
+
+  .row4-container div:first-child {
+    flex-basis: 70%;
+  }
+
+  .contact-box-flex div:first-child {
+    flex-basis: 15%;
+  }
+
+  .contact-box-flex div:last-child {
+    flex-basis: 85%;
+  }
+
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    padding: 0 8px;
+  }
+
+  .contact-box {
+    flex: 1;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .body-container {
+    max-width: 1200px;
+  }
+
+  .row4-container {
+    max-width: 1200px;
+  }
+
+  iframe {
+    height: 542px !important;
+    width: 770px !important;
+    min-width: unset !important;
+    max-width: unset !important;
+  }
+
+  .contact-box {
+    margin: 20px 0;
+  }
+
+  .contact-box-flex {
+    padding: 20px 0;
+  }
+
+  .row4-container div:first-child {
+    flex-basis: 64%;
+  }
+
+  .contact-box-flex div:first-child {
+    flex-basis: 10%;
+  }
+
+  .contact-box-flex div:last-child {
+    flex-basis: 90%;
+  }
+
+  .row4-container {
+    justify-content: center;
+  }
+}

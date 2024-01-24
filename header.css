@@ -1,0 +1,42 @@
+h1 {
+    text-align: center;
+    font-size: 36px !important;
+    font-weight: 400 !important;
+    text-transform: uppercase !important;
+    color: #fff !important;
+    padding: 50px 1rem !important;
+    margin: 0 !important;
+  }
+  
+  header div {
+    background: url("https://di-uploads-pod6.dealerinspire.com/1cochran/uploads/2023/12/parts-by-cochran-about-us-background.png");
+    background-repeat: repeat;
+    background-size: 500px;
+  }
+  
+  @media only screen and (min-width: 992px) {  
+    h1 {
+      font-size: 50px !important;
+      padding: 80px 1rem !important;
+    }
+  
+    header div {
+      background-size: 1000px;
+    }
+  }
+  
+  @media only screen and (min-width: 1200px) {
+    h1 {
+      font-size: 60px !important;
+    }
+  }
+  
+  @media only screen and (min-width: 1400px) { 
+    h1 {
+      font-size: 60px !important;
+      max-width: 1100px !important;
+      display: block !important;
+      margin: 0 auto !important;
+    }
+  }
+  

@@ -1,0 +1,51 @@
+.delay-container {
+    display: block;
+    margin: 0 auto;
+    padding: 40px 0;
+    max-width: 290px;
+    text-align: center;
+}
+
+h3 {
+    color: #e82430;
+    font-size: 26px;
+    margin: 0;
+    padding: 5px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 1.1;
+    font-size: 20px;
+}
+
+hr {
+    margin: 0;
+    padding: 0;
+    border: 2px solid #e6e6e6;
+}
+
+@media only screen and (min-width: 480px) {
+    .delay-container {
+        max-width: 400px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .delay-container {
+        max-width: 700px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .delay-container {
+        max-width: 900px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .delay-container {
+        max-width: 1000px;
+    }
+}

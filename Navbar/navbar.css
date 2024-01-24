@@ -1,0 +1,41 @@
+nav {
+	position: relative;
+	z-index: 99999999;
+}
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 0;
+}
+
+.parts-logo {
+	width: 127px;
+	height: 31.33px;
+	padding-left: 0px;
+}
+.navbar-brand {
+    margin-right: unset !important;
+}
+
+*, ::after, ::before {
+     box-sizing: unset; 
+}
+
+.nav-link {
+    font-weight: 500 !important;
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: #E82430;
+}
+
+.dropdown-item {
+	width: unset;
+}
+
+@media only screen and (min-width: 992px) {
+	.parts-logo {
+		width: 190.5px;
+		height: 47px;
+		padding: 5px 10px;
+	}
+}
