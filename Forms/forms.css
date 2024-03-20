@@ -10,11 +10,33 @@ h2 {
 h3 {
   text-transform: uppercase;
   font-size: 16px;
+  text-align: center;
+}
+
+.form-container {
+  padding: 10px 0;
 }
 
 .row1 {
   padding: 2rem 0;
 }
+
+.row1 a {
+  text-decoration: none;
+  color: #808080;
+  font-size: 25px;
+}
+
+.row1 a:hover {
+  text-decoration: none;
+  color: #e82430;
+  transition-duration: 0.4s;
+}
+
+/* .form-icon i {
+  font-size: 30px;
+  text-align: center;
+} */
 
 .body-container {
   display: block;
@@ -27,78 +49,15 @@ h3 {
   color: #e82430;
 }
 
-hr {
-  padding: 0;
-  margin: 0 0 20px;
-  border: 1px solid #707070;
-  background-color: #707070;
-  width: 100%;
+.row1 img {
   display: block;
+  margin: 10px auto 20px;
+  width: 200px;
+  -webkit-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.5);
 }
 
-/* Dropdown Button */
-.dropbtn {
-  color: #000;
-  padding: 10px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  text-align: start;
-  font-size: 26px;
-  font-weight: 600;
-  background-color: #fff;
-  transition-duration: 0.4s;
-}
-
-/* Dropdown button on hover & focus */
-.dropbtn:hover,
-/* .dropbtn:focus, */
-.dropbtn:active {
-  font-weight: 600;
-  color: #ea0029;
-}
-
-.dropbtn::after {
-  content: "▲";
-}
-
-.dropbtn:hover::after {
-  content: "▼";
-}
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown-container {
-  display: inline-block;
-  width: 100%;
-  text-align: start;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-  display: none;
-  position: relative;
-  background-color: #f2f2f2;
-  width: 100%;
-  z-index: 1;
-  text-transform: uppercase;
-  font-weight: 600;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-  color: black;
-  padding: 0;
-  text-decoration: none;
-  display: block;
-  padding: 5px 0 5px 10px;
-  transition-duration: 0.4s;
-}
-
-.dropdown-content a:hover {
-  color: #ea0029;
-}
-
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {
   display: block;
 }
@@ -110,11 +69,34 @@ hr {
     padding: 0;
     margin: 0 auto;
   }
+
+  .row1 img {
+    width: 200px;
+  }
+
+  .row1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .form-container {
+    flex-basis: 50%;
+  }
 }
 
 @media only screen and (min-width: 992px) {
   .body-container {
     max-width: 800px;
+  }
+
+  .row1 img {
+    width: 150px;
+  }
+
+  .form-container {
+    flex-basis: 30%;
   }
 }
 
@@ -127,5 +109,9 @@ hr {
 @media only screen and (min-width: 1400px) {
   .body-container {
     max-width: 1100px;
+  }
+
+  .form-container {
+    flex-basis: 25%;
   }
 }

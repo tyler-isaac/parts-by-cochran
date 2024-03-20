@@ -13,7 +13,7 @@ i.circle1 {
 }
 
 i.circle2 {
-    padding: 35px 35px;
+  padding: 35px 35px;
 }
 
 i.circle3 {
@@ -39,7 +39,7 @@ i.circle4 {
 }
 
 .row1 h3:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .row1 a {
@@ -125,7 +125,7 @@ i.circle4 {
   }
 
   .staff-flex {
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
 }
 
