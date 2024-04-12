@@ -7,7 +7,7 @@
     <link href="./footer.css" rel="stylesheet" type="text/css" />
   </head>
   <div class="footer-container">
-     <div class="footer-flex">
+    <div class="footer-flex">
       <div>
         <a href="./about-us.html">About Us</a>
         <a href="./connect.html">CONTACT US</a>
@@ -29,12 +29,15 @@
       </div>
     </div>
     <div>
-      <hr class="footer-hr"/>
+      <hr class="footer-hr" />
     </div>
     <div>
       <i>
-        <p>COPYRIGHT © 2023 #1 COCHRAN</p>
+        <p>COPYRIGHT © 2023-<span id="year"></span> #1 COCHRAN</p>
       </i>
-    </div> 
+    </div>
   </div>
+  <script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+  </script>
 </html>
