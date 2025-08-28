@@ -100,10 +100,16 @@ button {
   font-size: 1rem;
   border-radius: 4px;
   animation: fadeIn 0.4s ease forwards;
+  text-align: start;
+}
+
+#result div,
+#result.loading {
+  margin-left: 10px;
 }
 
 .contact-container p {
-    text-align: start;
+  text-align: start;
 }
 
 @keyframes fadeIn {
@@ -114,6 +120,33 @@ button {
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+/* Style for the loading message */
+#result .loading {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-style: italic;
+  color: #555;
+}
+
+/* Spinner element */
+#result .loading::before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  border: 2px solid #e82430; /* Cochran red */
+  border-top-color: transparent; /* create the "spin gap" */
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+/* Keyframes for spinning */
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
   }
 }
 
@@ -134,7 +167,7 @@ button {
     width: 380px;
     margin-top: 0 !important;
   }
-  
+
   .padding-delete {
     padding: 0 8px 0px !important;
   }
