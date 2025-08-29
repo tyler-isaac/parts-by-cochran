@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // VIN validation
     if (vin.length !== 17 || /[IOQ]/.test(vin) || /[^A-Z0-9]/.test(vin)) {
-      result.innerHTML = `<div">Please enter a valid 17-character VIN (no I, O, or Q).</div>`;
+      result.innerHTML = `<div>Please enter a valid 17-character VIN</div>`;
       btn.disabled = false;
       return;
     }
@@ -26,8 +26,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Wholesale Account validation
     // must start with "WP" and be exactly 6 characters
-    if (!/^WP[A-Z0-9]{4}$/.test(account)) {
-      result.innerHTML = `<div">Please enter a valid Wholesale Account #</div>`;
+    if (!/^WP[A-Z0-9]{3,4}$/.test(account)) {
+      result.innerHTML = `<div>Please enter a valid Wholesale Account #</div>`;
       btn.disabled = false;
       return;
     }
