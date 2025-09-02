@@ -1,0 +1,171 @@
+#vin-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.vin-card {
+  background: #fff;
+  webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.65);
+  -moz-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.65);
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.65);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  overflow: hidden;
+  display: block;
+  margin: auto auto 40px;
+  width: 270px;
+}
+
+.vin-card-head {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.vin-card-title {
+  margin: 0 0 0 8px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #222;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+/* Body */
+.vin-card-body {
+  padding: 1rem;
+}
+
+/* Keep your existing form layout */
+#vin-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Inputs */
+input,
+select {
+  padding: 10px 12px;
+  border: 1px solid #dcdcdc;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  outline: none;
+}
+input:focus,
+select:focus {
+  border-color: #e82430;
+  box-shadow: 0 0 0 3px rgba(232, 36, 48, 0.15);
+}
+
+#lookup-btn {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 10px 0;
+  width: 100%;
+  text-decoration: none;
+  text-align: center;
+  background-color: #e82430;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+}
+
+#lookup-btn:hover {
+  display: inline-block;
+  border: none;
+}
+
+input,
+select,
+button {
+  margin: 2px 0;
+}
+
+#result {
+  margin: 10px 0;
+  padding: 10px 0px;
+  border-left: 6px solid #e82430;
+  color: #000;
+  font-weight: 500;
+  font-size: 1rem;
+  border-radius: 4px;
+  animation: fadeIn 0.4s ease forwards;
+  text-align: start;
+}
+
+#result div,
+#result.loading {
+  margin-left: 10px;
+}
+
+.disclaimer {
+  line-height: 1.5 !important;
+}
+
+.contact-container p {
+  text-align: start;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Style for the loading message */
+#result .loading {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-style: italic;
+  color: #555;
+}
+
+/* Spinner element */
+#result .loading::before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  border: 2px solid #e82430; /* Cochran red */
+  border-top-color: transparent; /* create the "spin gap" */
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+/* Keyframes for spinning */
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  .vin-card {
+    width: 380px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .vin-card {
+    width: 650px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .vin-card {
+    width: 380px;
+    margin-top: 0 !important;
+  }
+
+  .padding-delete {
+    padding: 0 8px 0px !important;
+  }
+}

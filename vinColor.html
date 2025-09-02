@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Color Lookup | Parts By Cochran</title>
+    <link rel="icon"
+        href="https://di-uploads-pod6.dealerinspire.com/1cochran/uploads/2024/01/1-Cochran-Logo-secondary.png" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <script src="./Navbar/navbar.js"></script>
+    <link href="./Navbar/navbar.css" rel="stylesheet" type="text/css" />
+    <script src="./Footer/footer.js"></script>
+    <link href="./Footer/footer.css" rel="stylesheet" type="text/css" />
+    <link href="./index.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="./header.css" />
+    <link rel="stylesheet" href="./vinColor/vinColor.css">
+    <link href="./About-Us/meet-the-staff.css" rel="stylesheet" type="text/css" />
+</head>
+<main>
+    <nav>
+        <div id="navbar"></div>
+    </nav>
+    <header>
+        <div>
+            <h1>Color Lookup</h1>
+        </div>
+    </header>
+
+    <body>
+        <div class="row4">
+            <div class="row4-container">
+                <div class="vin-card item-order">
+                    <div class="vin-card-head">
+                        <h3 class="vin-card-title">Lookup Color By Vin</h3>
+                    </div>
+                    <form id="vin-form" class="vin-card-body">
+                        <input id="vin" placeholder="Enter 17-character VIN" maxlength="17" required />
+                        <select id="brand" required>
+                            <option value="">Select Brand</option>
+                            <!-- <option value="KIA">KIA</option> -->
+                            <!-- <option value="TOYOTA">TOYOTA</option> -->
+                            <!-- <option value="LEXUS">LEXUS</option> -->
+                            <option value="MOPAR">MOPAR</option>
+                            <option value="HYUNDAI">HYUNDAI</option>
+                            <option value="GM">GM</option>
+                        </select>
+                        <input id="account" placeholder="Wholesale Account #" maxlength="6" required />
+                        <button id="lookup-btn" type="submit">Lookup Color</button>
+                        <p id="result" aria-live="polite"></p>
+                    </form>
+
+                </div>
+                <div>
+                    <div class="contact-container padding-delete">
+                        <div class="contact-box">
+                            <div class="contact-box-flex">
+                                <div>
+                                    <i class="circle1 fa-regular fa-envelope"></i>
+                                </div>
+                                <div>
+                                    <h4>Email</h4>
+                                    <p>partsbycochran@cochran.com</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact-box">
+                            <div class="contact-box-flex">
+                                <div>
+                                    <i class="circle2 fa-solid fa-mobile-screen-button"></i>
+                                </div>
+                                <div>
+                                    <h4>Phone</h4>
+                                    <p>412.349.1700</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact-box">
+                            <div class="contact-box-flex">
+                                <div>
+                                    <i class="circle3 fa-solid fa-fax"></i>
+                                </div>
+                                <div>
+                                    <h4>Fax</h4>
+                                    <p>724.295.3574</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact-box">
+                            <div class="contact-box-flex">
+                                <div>
+                                    <i class="circle4 fa-solid fa-location-dot"></i>
+                                </div>
+                                <div>
+                                    <h4>Location</h4>
+                                    <p>
+                                        2 Acee Drive <br />
+                                        Natrona Heights, PA 15065
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row4-container">
+                <p class="disclaimer">
+                    *Please ensure all parts are thoroughly inspected for accuracy, compatibility, and correct paint
+                    code validation prior to painting. Once a part has been painted, we are not responsible for any
+                    issues related to fitment, function, color match, or warranty. Painted parts are non-returnable
+                    and non-refundable under any circumstances.
+                </p>
+            </div>
+        </div>
+        <script src="/vinColor/vincolor.js"></script>
+    </body>
+    <footer>
+        <div id="footer"></div>
+    </footer>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+</html>
